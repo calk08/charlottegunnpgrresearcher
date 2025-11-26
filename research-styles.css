@@ -891,13 +891,14 @@
 
 .contact-research .section-title,
 .contact-research .section-subtitle {
-    color: white;
+    color: #2c3e50;
 }
 
 .collaboration-opportunities h3 {
-    color: white;
+    color: #2c3e50;
     font-size: 2rem;
     margin-bottom: 2rem;
+    text-align: center;
 }
 
 .opportunities-grid {
@@ -908,24 +909,24 @@
 }
 
 .opportunity-card {
-    background: rgba(255, 255, 255, 0.1);
-    backdrop-filter: blur(10px);
-    border: 1px solid rgba(255, 255, 255, 0.2);
+    background: white;
     padding: 2rem;
     border-radius: 16px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
     text-align: center;
-    transition: transform 0.3s ease, background 0.3s ease;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
+
 
 .opportunity-card:hover {
     transform: translateY(-5px);
-    background: rgba(255, 255, 255, 0.15);
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.15);
 }
 
 .opportunity-icon {
     width: 60px;
     height: 60px;
-    background: rgba(255, 255, 255, 0.2);
+    background: linear-gradient(45deg, #667eea, #764ba2);
     border-radius: 50%;
     display: flex;
     align-items: center;
@@ -939,13 +940,13 @@
 }
 
 .opportunity-card h4 {
-    color: white;
+    color: #2c3e50;
     margin-bottom: 1rem;
     font-size: 1.25rem;
 }
 
 .opportunity-card p {
-    color: rgba(255, 255, 255, 0.9);
+    color: #2c3e50;
     line-height: 1.6;
     margin: 0;
 }
@@ -960,13 +961,13 @@
 }
 
 .cta-content h3 {
-    color: white;
+    color: #2c3e50;
     font-size: 2rem;
     margin-bottom: 1rem;
 }
 
 .cta-content p {
-    color: rgba(255, 255, 255, 0.9);
+    color: #2c3e50;
     font-size: 1.125rem;
     line-height: 1.7;
     margin-bottom: 2rem;
@@ -984,7 +985,7 @@
 
 .cta-actions .btn {
     background: rgba(255, 255, 255, 0.2);
-    color: white;
+    color: #2c3e50;
     border: 2px solid rgba(255, 255, 255, 0.3);
 }
 
